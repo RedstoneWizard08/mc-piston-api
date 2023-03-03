@@ -1,0 +1,32 @@
+# Build outputs
+target
+build
+docs
+dist
+out
+
+# Dependencies
+node_modules
+
+# minecraft
+minecraft
+
+# Prettier can mess this up
+*.md
+LICENSE
+
+# Image files
+*.png
+*.svg
+*.gif
+*.jpg
+*.jpeg
+*.jfif
+
+# Lock files
+*.lock
+pnpm-lock.yaml
+package-lock.json
+
+# Git
+.git
