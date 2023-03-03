@@ -1,7 +1,21 @@
 {
     "name": "mc-piston-api",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "A library to assist with Minecraft's piston-meta API.",
+    "homepage": "https://github.com/RedstoneWizard08/mc-piston-api",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "keywords": [
+        "minecraft",
+        "api",
+        "typescript",
+        "piston-api",
+        "piston-meta"
+    ],
+    "author": {
+        "name": "RedstoneWizard08",
+        "url": "https://github.com/RedstoneWizard08"
+    },
     "devDependencies": {
         "@types/node": "^18.14.6",
         "@typescript-eslint/eslint-plugin": "^5.54.0",
@@ -26,5 +40,9 @@
         "clean": "rimraf dist",
         "prepublish": "pnpm build",
         "lint": "eslint ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RedstoneWizard08/mc-piston-api"
     }
 }
