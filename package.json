@@ -36,7 +36,7 @@
         "build:tsc": "tsc -p .",
         "build:esbuild": "ts-node esbuild.ts",
         "build": "pnpm clean && pnpm build:esbuild && pnpm build:tsc && pnpm docs",
-        "docs": "typedoc",
+        "doc": "typedoc",
         "clean": "rimraf dist",
         "prepublish": "pnpm build",
         "lint": "eslint ."
